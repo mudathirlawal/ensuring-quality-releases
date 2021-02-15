@@ -63,5 +63,3 @@ stages:
   #               sudo apt-get install -y chromium-browser
   #               pip3 install selenium
   #               export PATH=$PATH:some/path
-
-
