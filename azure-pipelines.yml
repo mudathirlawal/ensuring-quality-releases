@@ -38,7 +38,11 @@ stages:
             displayName: 'Deploy Azure Web App'
             inputs:
               azureSubscription: '21ced44b-8132-4ae5-a64b-f6f972c1f417'
+<<<<<<< HEAD
               appName: 'ensuring-quality-releases'
+=======
+              appName: ''
+>>>>>>> 15d2bd0
               appType: webApp
               package: $(Pipeline.Workspace)/drop-fakerestapi/$(Build.BuildId)-fakerestapi.zip
   # - deployment: VMDeploy
